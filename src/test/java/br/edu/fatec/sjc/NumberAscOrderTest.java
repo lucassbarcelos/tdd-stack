@@ -47,7 +47,6 @@ public class NumberAscOrderTest {
 
     @Test
     public void validateEmptyStack() throws StackEmptyException {
-        Mockito.when(stack.size()).thenReturn(6);
         Mockito.when(stack.isEmpty()).thenReturn(true);
         assertEquals(orderStack.sort(), emptyList);
     }
