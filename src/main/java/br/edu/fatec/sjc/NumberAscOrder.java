@@ -22,7 +22,6 @@ public class NumberAscOrder<T extends Number> {
         }
 
         orderd.sort(null);
-        System.out.println(orderd.toString());
 
         return orderd;
     }
